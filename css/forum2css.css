@@ -3,6 +3,7 @@
 	}
 
 table {
+	font-family: 'Oxygen', sans-serif;
 	border-collapse: collapse;
     width: 1000px;
 }
@@ -63,7 +64,12 @@ img{
 	float:left;
 	width:35px;
 	margin-right:4px;
-	
 }
 
+.author{
+	font-weight:bold;
+}
 
+.time{
+	font-size:12px;
+}
