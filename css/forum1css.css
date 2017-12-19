@@ -15,6 +15,20 @@ div{
 	font-size:29px;
 }
 
+.author{
+	font-weight:bold;
+}
+
 .container{
-	background-color:red;
+	margin-top:5px;
+	padding:10px;
+	width:1000px;
+}
+
+.container:nth-of-type(odd){
+	background-color:#FFFFE0;
+}
+
+.container:nth-of-type(even){
+	background-color:#FBFBFB
 }
